@@ -66,8 +66,10 @@ Output: `predict_new.csv` with `Churn_proba` and `Churn_pred`
 From the exploratory data analysis
 
 - **Tenure and Churn**
-<img src="image/1.Distribution_of_Tenure.png" alt="Distribution_of_Tenure" width="400"/>
-<img src="image/2.SHAP.png" alt="SHAP" width="400"/>
+<p align="center">
+  <img src="image/1.Distribution_of_Tenure.png" alt="Distribution_of_Tenure" width="400"/>
+  <img src="image/2.SHAP.png" alt="SHAP" width="400"/>
+</p>
    - Distribution of tenure shows many customers are new (low tenure).
    - Customers with shorter tenure are more likely to churn, as confirmed by SHAP analysis.
 
