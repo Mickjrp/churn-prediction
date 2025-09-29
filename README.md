@@ -78,8 +78,10 @@ Customers on **month-to-month contracts** churn at a much higher rate compared t
 - **Strengths:** Good balance between precision (0.65) and recall (0.56) for churn. Best ROC-AUC among the three models.  
 - **Weaknesses:** Tends to miss some churn cases (lower recall).  
 
-![Confusion Matrix - Logistic Regression](image/conf_log.png)  
-![Classification Report - Logistic Regression](image/rep_log.png)
+<p align="left">
+  <img src="image/conf_log.png" width="350"/>
+  <img src="image/rep_log.png" width="350"/>
+</p>
 
 ---
 
@@ -89,8 +91,10 @@ Customers on **month-to-month contracts** churn at a much higher rate compared t
 - **Strengths:** Highest recall for **No Churn** (0.91). Strong performance in identifying customers who stay.  
 - **Weaknesses:** Lowest recall for **Churn** (0.47), meaning it misses many churn cases.  
 
-![Confusion Matrix - Random Forest](image/conf_rmf.png)  
-![Classification Report - Random Forest](image/rep_rmf.png)
+<p align="left">
+  <img src="image/conf_rmf.png" width="350"/>
+  <img src="image/rep_rmf.png" width="350"/>
+</p>
 
 ---
 
@@ -100,8 +104,10 @@ Customers on **month-to-month contracts** churn at a much higher rate compared t
 - **Strengths:** More balanced performance than Random Forest, with churn recall of 0.54 (better than Random Forest).  
 - **Weaknesses:** Slightly lower overall accuracy compared to Logistic Regression.  
 
-![Confusion Matrix - XGBoost](image/conf_xgb.png)  
-![Classification Report - XGBoost](image/rep_xgb.png)
+<p align="left">
+  <img src="image/conf_xgb.png" width="350"/>
+  <img src="image/rep_xgb.png" width="350"/>
+</p>
 
 ---
 
