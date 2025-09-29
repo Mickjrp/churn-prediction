@@ -13,7 +13,7 @@ End-to-end machine learning project to predict customer churn using the Telco Cu
   - Model training: Logistic Regression, Random Forest, XGBoost
   - Model evaluation: Accuracy, Precision, Recall, F1, ROC-AUC
   - Explainability: Feature importance, SHAP values
-  - Insights: identified drivers of churn such as short tenure, month-to-month contracts, and high monthly charges
+  - Insights: identified drivers of churn
   - Batch inference: automated script to score new customer data
 
 ---
