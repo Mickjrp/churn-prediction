@@ -92,8 +92,8 @@ Customers on **month-to-month contracts** churn at a much higher rate compared t
 - **Weaknesses:** Lowest recall for **Churn** (0.47), meaning it misses many churn cases.  
 
 <p align="left">
-  <img src="image/conf_rmf.png" height="500"/>
-  <img src="image/rep_rmf.png" height="500"/>
+  <img src="image/conf_rmf.png" width="350"/>
+  <img src="image/rep_rmf.png" width="580"/>
 </p>
 
 ---
