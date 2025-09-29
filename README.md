@@ -93,7 +93,7 @@ Customers on **month-to-month contracts** churn at a much higher rate compared t
 
 <p align="left">
   <img src="image/conf_rmf.png" width="350"/>
-  <img src="image/rep_rmf.png" width="350"/>
+  <img src="image/rep_rmf.png" width="550"/>
 </p>
 
 ---
