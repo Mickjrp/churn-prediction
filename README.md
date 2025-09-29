@@ -64,10 +64,12 @@ Output: `predict_new.csv` with `Churn_proba` and `Churn_pred`
 
 ## Key Insights
 From the exploratory data analysis
+
 <p align="center">
   <img src="image/1.Distribution_of_Tenure.png" alt="Distribution_of_Tenure" width="400"/>
   <img src="image/2.SHAP.png" alt="SHAP" width="400"/>
 </p>
+
 - **Tenure and Churn**
    - Distribution of tenure shows many customers are new (low tenure).
    - Customers with shorter tenure are more likely to churn, as confirmed by SHAP analysis.
@@ -75,6 +77,7 @@ From the exploratory data analysis
 <p align="center">
   <img src="image/3.Churn_by_ContractType.png" alt="Churn_by_ContractType" width="400"/>
 </p>
+
 - **Contract Type**
    - Customers on **month-to-month contracts** churn at a much higher rate compared to those on one-year or two-year contracts (as shown in Churn by Contract Type).
 
