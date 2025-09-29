@@ -80,7 +80,7 @@ Customers on **month-to-month contracts** churn at a much higher rate compared t
 
 <p align="left">
   <img src="image/conf_log.png" width="350"/>
-  <img src="image/rep_log.png" width="350"/>
+  <img src="image/rep_log.png" width="590"/>
 </p>
 
 ---
@@ -93,7 +93,7 @@ Customers on **month-to-month contracts** churn at a much higher rate compared t
 
 <p align="left">
   <img src="image/conf_rmf.png" width="350"/>
-  <img src="image/rep_rmf.png" width="580"/>
+  <img src="image/rep_rmf.png" width="590"/>
 </p>
 
 ---
@@ -106,7 +106,7 @@ Customers on **month-to-month contracts** churn at a much higher rate compared t
 
 <p align="left">
   <img src="image/conf_xgb.png" width="350"/>
-  <img src="image/rep_xgb.png" width="350"/>
+  <img src="image/rep_xgb.png" width="590"/>
 </p>
 
 ---
