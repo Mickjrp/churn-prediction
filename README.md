@@ -67,15 +67,10 @@ From the exploratory data analysis
 
 - **Tenure and Churn**
    - Distribution of tenure shows many customers are new (low tenure).
-   - Customers with shorter tenure are more likely to churn, as confirmed by correlation and SHAP analysis.
-
-- **Monthly Charges**
-   - Distribution of MonthlyCharges indicates that customers with higher monthly fees are more likely to churn.
-   - This is consistent with feature importance rankings.
+   - Customers with shorter tenure are more likely to churn, as confirmed by SHAP analysis.
 
 - **Contract Type**
-   - Feature importance and SHAP plots highlight "Month-to-month" contracts as a strong churn driver.
-   - Customers without long-term commitment are more likely to leave.
+   - Customers on **month-to-month contracts** churn at a much higher rate compared to those on one-year or two-year contracts (as shown in Churn by Contract Type).
 
 ---
 
