@@ -62,13 +62,56 @@ Output: `predict_new.csv` with `Churn_proba` and `Churn_pred`
 
 ---
 
-## Key Insights
+## EDA Insight
 
 <img src="image/3.Churn_by_ContractType.png" alt="Churn_by_ContractType" width="400"/>
 
 Customers on **month-to-month contracts** churn at a much higher rate compared to those on one-year or two-year contracts (as shown in Churn by Contract Type).
 
 ---
+
+## Model Results
+
+### Logistic Regression
+- **Accuracy:** 0.80  
+- **ROC-AUC:** 0.842  
+- **Strengths:** Good balance between precision (0.65) and recall (0.56) for churn. Best ROC-AUC among the three models.  
+- **Weaknesses:** Tends to miss some churn cases (lower recall).  
+
+![Confusion Matrix - Logistic Regression](image/conf_log.png)  
+![Classification Report - Logistic Regression](image/rep_log.png)
+
+---
+
+### Random Forest
+- **Accuracy:** 0.79  
+- **ROC-AUC:** 0.830  
+- **Strengths:** Highest recall for **No Churn** (0.91). Strong performance in identifying customers who stay.  
+- **Weaknesses:** Lowest recall for **Churn** (0.47), meaning it misses many churn cases.  
+
+![Confusion Matrix - Random Forest](image/conf_rmf.png)  
+![Classification Report - Random Forest](image/rep_rmf.png)
+
+---
+
+### XGBoost
+- **Accuracy:** 0.78  
+- **ROC-AUC:** 0.825  
+- **Strengths:** More balanced performance than Random Forest, with churn recall of 0.54 (better than Random Forest).  
+- **Weaknesses:** Slightly lower overall accuracy compared to Logistic Regression.  
+
+![Confusion Matrix - XGBoost](image/conf_xgb.png)  
+![Classification Report - XGBoost](image/rep_xgb.png)
+
+---
+
+## Model Insight
+- Logistic Regression achieves the **best overall performance** with the highest ROC-AUC (0.842), making it most reliable for churn prediction.  
+- Random Forest strongly identifies non-churn customers but struggles to detect churners.  
+- XGBoost provides a balance between precision and recall but does not surpass Logistic Regression.  
+
+**Conclusion:** Logistic Regression is the most suitable model for this dataset, especially when prioritizing a balance between correctly predicting churn and non-churn customers.
+
 
 
 
