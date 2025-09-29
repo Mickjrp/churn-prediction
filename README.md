@@ -63,12 +63,10 @@ Output: `predict_new.csv` with `Churn_proba` and `Churn_pred`
 ---
 
 ## Key Insights
-From the exploratory data analysis
 
 <img src="image/3.Churn_by_ContractType.png" alt="Churn_by_ContractType" width="400"/>
 
-- **Contract Type**
-   - Customers on **month-to-month contracts** churn at a much higher rate compared to those on one-year or two-year contracts (as shown in Churn by Contract Type).
+Customers on **month-to-month contracts** churn at a much higher rate compared to those on one-year or two-year contracts (as shown in Churn by Contract Type).
 
 ---
 
