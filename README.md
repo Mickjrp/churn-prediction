@@ -5,14 +5,14 @@ End-to-end machine learning project to predict customer churn using the Telco Cu
 ## Project Overview
 - Dataset: Telco Customer Churn (~7,000 records, 20+ features)
 - Workflow:
-  1. Data loading and cleaning
-  2. Exploratory Data Analysis (EDA)
-  3. Feature engineering (encoding, scaling, handling missing values)
-  4. Model training: Logistic Regression, Random Forest, XGBoost
-  5. Model evaluation: Accuracy, Precision, Recall, F1, ROC-AUC
-  6. Explainability: Feature importance, SHAP values
-  7. Insights: identified drivers of churn such as short tenure, month-to-month contracts, and high monthly charges
-  8. Batch inference: automated script to score new customer data
+  - Data loading and cleaning
+  - Exploratory Data Analysis (EDA)
+  - Feature engineering (encoding, scaling, handling missing values)
+  - Model training: Logistic Regression, Random Forest, XGBoost
+  - Model evaluation: Accuracy, Precision, Recall, F1, ROC-AUC
+  - Explainability: Feature importance, SHAP values
+  - Insights: identified drivers of churn such as short tenure, month-to-month contracts, and high monthly charges
+  - Batch inference: automated script to score new customer data
 
 ## Project Structure
 ```
@@ -44,9 +44,9 @@ python src/train.py
 ```
 
 Artifacts created:
-- `models/churn_model.pkl` → best pipeline model
-- `models/model_meta.json` → metadata (features, column types)
-- `outputs/predictions.csv` → predictions on test set
+- `models/churn_model.pkl` -> best pipeline model
+- `models/model_meta.json` -> metadata (features, column types)
+- `outputs/predictions.csv` -> predictions on test set
 
 ## Batch Inference
 ```powershell
