@@ -63,10 +63,19 @@ Output: `predict_new.csv` with `Churn_proba` and `Churn_pred`
 ---
 
 ## Key Insights
-- Customers with month-to-month contracts have the highest churn risk.
-- High monthly charges increase churn likelihood.
-- Customers with shorter tenure are more likely to churn.
-- Insights can guide targeted retention strategies (e.g., offering promotions for high-risk groups).
+From the exploratory data analysis
+
+- **Tenure and Churn**
+   - Distribution of tenure shows many customers are new (low tenure).
+   - Customers with shorter tenure are more likely to churn, as confirmed by correlation and SHAP analysis.
+
+- **Monthly Charges**
+   - Distribution of MonthlyCharges indicates that customers with higher monthly fees are more likely to churn.
+   - This is consistent with feature importance rankings.
+
+- **Contract Type**
+   - Feature importance and SHAP plots highlight "Month-to-month" contracts as a strong churn driver.
+   - Customers without long-term commitment are more likely to leave.
 
 ---
 
